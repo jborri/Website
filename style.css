@@ -45,10 +45,16 @@ h1{
 }
 #background {
     /* background-image: image("images/sparkle.gif"); */
-    background-image: url("images/sparkle.gif");
+    /* background-image: url("images/sparkle.gif"); */
     background-size: cover;
 }
 
 #welcome {
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-bar {
+
 }
